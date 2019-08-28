@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head> 
+        
+    <title>Crowdfunding Learn Top</title>
+	      
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap" rel="stylesheet">
+ 
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	
+	<!-- Fontawesome -->
+	<link rel="stylesheet" type="text/css" href="css/all.min.css" />
+
+	<!-- Custom Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" /> 
+
+</head> 
+<style type="text/css">
+
+	* {
+		outline: none;
+	}
+	
+	.step_form_section {
+	    font-size: 18px;
+	    color: rgba(0,0,0,0.6);
+	}
+
+	.step_form_section h2 {
+	    color: #000000;
+	    line-height: 36px;
+	    font-weight: 400;
+	    font-size: 32px;
+	    margin-bottom: 14px;
+	}
+
+	.step_form_section select.custom-select {
+	    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.17);
+	    border: none;
+	    height: 50px;
+	    line-height: 34px;
+	}
+
+	.text_normal {
+		font-size: 16px;
+	}
+
+	.text_small {
+		font-size: 14px;
+	}
+
+	.m_b_60 {
+	    margin-bottom: 60px;
+	}
+
+	.p_t_50 {
+	    padding-top: 50px;
+	}
+
+	.step_form_section .custom-control-label::before {
+	    width: 22px;
+	    height: 22px;
+	    border-radius: 100% !important;
+	}
+
+	.step_form_section	.custom-checkbox  {
+		padding-right:2rem;
+	}
+
+	.step_form_section 	.custom-control-label::after {
+	    top: 7px;
+	    left: 2px;
+	    background-size: 12px;
+	}
+
+	.custom_list {
+	    list-style: none;
+	    padding: 0;
+
+	}
+
+	.custom_list li {
+	    padding: 8px;
+ 		border:1px solid #fff;
+	}
+
+	.custom_list li:hover {
+	    border:1px solid #ccc;
+	}
+
+</style>
+<body class="">
+ 	
+ 	<!-- Remove p_t_50 class form this section element while integration -->
+ 	<section class="step_form_section p_t_50">
+ 		<div class="container">
+	 		<div class="row">
+	 			<div class="col-12">
+	 				<div class="border-top text_normal text-dark py-2 step_text">1 of 3</div>
+	 			</div>
+		 		<div class="col-12 col-md-6 mx-auto">
+
+		 			<!-- Step 1 -->
+			 		<div class="step step_form_1 text-center p_t_50" data-step="1">
+				 		<h2>First, let’s get you set up.</h2>
+				 		<p class="mb-5">Pick a project category to connect with a specific community. You can always update this later.</p>
+				 		<div class="form-group m_b_60">
+				 			<select name="campaign_categories" class="custom-select rounded-0 cat_select">
+				 				<option value="">Select your category</option>
+				 				<option value="Art">Art</option>
+				 				<option value="Comics">Comics</option>
+				 				<option value="Crafts">Crafts</option>
+				 				<option value="Dance">Dance</option>
+				 			</select>
+				 		</div> 
+				 		<hr />
+				 		<div class="form-group m_b_60">
+				 			<div class="form-row">
+				 				<div class="col">
+				 					<p class=" text-left text_normal py-2 m-0">Nice to see you again.</p>
+				 				</div>
+				 				<div class="col text-right">
+				 					<a class="btn btn-dark disabled border-0 rounded-0 text_normal next_btn" href="#">Next: Project Idea</a>
+				 				</div>
+				 			</div>
+				 		</div>
+				 		<p class="text_small">To create a project, you're required to provide your location, age, national ID, banking and tax information, email, and mailing address. This information is necessary to prevent fraud, comply with the law, and — if your project is successful — to deliver funds. Please note: after launch, your ability to edit, hide, or delete a project is limited.</p>
+			 		</div>
+
+			 		<!-- Step 2 -->
+			 		<div class="step step_form_2 text-center p_t_50" data-step="2" style="display: none">
+			 			<h2>Describe what you’ll be creating.</h2>
+				 		<p class="mb-5">And don’t worry, you can edit this later, too.</p>
+				 		<div class="form-group m_b_60">
+				 			 <textarea class="form-control rounded-0" rows="4" placeholder="A set of handmade greeting cards and stationery."></textarea>
+				 		</div> 
+				 		<hr />
+				 		<div class="form-group m_b_60">
+				 			<div class="form-row">
+				 				<div class="col">
+				 					<p class=" text-left text_normal py-2 m-0">Category</p>
+				 				</div>
+				 				<div class="col text-right">
+				 					<a class="btn btn-dark disabled border-0 rounded-0 text_normal next_btn" href="#">Next: Location</a>
+				 				</div>
+				 			</div>
+				 		</div>
+				 		<p class="text_small">To create a project, you're required to provide your location, age, national ID, banking and tax information, email, and mailing address. This information is necessary to prevent fraud, comply with the law, and — if your project is successful — to deliver funds. Please note: after launch, your ability to edit, hide, or delete a project is limited.</p>
+			 		</div>
+
+			 		<!-- Step 3 -->
+			 		<div class="step step_form_3 text-center p_t_50" data-step="3" style="display: none">
+			 			<h2>Finally, let’s confirm your eligibility.</h2>
+				 		<p class="mb-5">Tell us where you’re based and confirm a few other details before we proceed.</p>
+				 		<div class="form-group m_b_60">
+				 			<select name="campaign_countries" class="custom-select rounded-0 country_select mb-2">
+				 				<option value="">Select your country</option>
+				 				<option value="Australia">Australia</option>
+				 				<option value="Austia">Austia</option>
+				 				<option value="India">India</option>
+				 			</select>
+				 			<p class="text-left text_normal"><i class="fas fa-info-circle"></i> What if my country isn’t listed?</p>
+				 			<ul class="custom_list">
+				 				<li>
+					 			<div class="custom-control custom-checkbox text-left ">
+								  <input type="checkbox" class="custom-control-input" id="18_year_old">
+								  <label class="custom-control-label" for="18_year_old">I am at least 18 years old.</label>
+								</div>
+								</li>
+								<li><div class="custom-control custom-checkbox text-left ">
+								  <input type="checkbox" class="custom-control-input" id="bank_accounts">
+								  <label class="custom-control-label" for="bank_accounts">I can verify a bank account and government-issued ID.</label>
+								</div>
+								</li>
+								<li>
+								 	<div class="custom-control custom-checkbox text-left ">
+									  <input type="checkbox" class="custom-control-input" id="have_cards">
+									  <label class="custom-control-label" for="have_cards">I have a debit and/or credit card.</label>
+									</div>
+								</li>
+							</ul>
+				 		</div> 
+				 		<hr />
+				 		<div class="form-group m_b_60">
+				 			<div class="form-row">
+				 				<div class="col">
+				 					<p class=" text-left text_normal py-2 m-0">Nice to see you again.</p>
+				 				</div>
+				 				<div class="col text-right">
+				 					<a class="btn btn-dark disabled border-0 rounded-0 text_normal next_btn" href="#">Continue</a>
+				 				</div>
+				 			</div>
+				 		</div>
+				 		<p class="text_small">To create a project, you're required to provide your location, age, national ID, banking and tax information, email, and mailing address. This information is necessary to prevent fraud, comply with the law, and — if your project is successful — to deliver funds. Please note: after launch, your ability to edit, hide, or delete a project is limited.</p>
+			 		</div>
+		 		</div>
+	 		</div>
+ 		</div>
+ 	</section>
+ 
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js" type="text/javascript"></script> 
+
+ 	<!-- Popper JS -->
+	<script src="js/popper.min.js" type="text/javascript"></script>
+
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!-- Custom Script -->
+	<script type="text/javascript" src="js/custom.js"></script>
+
+
+</body>
+</html> 

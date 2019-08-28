@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 14px;
+    color: #494949;
+    font-family: 'Source Sans Pro', sans-serif;
+}
