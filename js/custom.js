@@ -18,9 +18,9 @@ jQuery('document').ready(function(){
 		jQuery('.step_text').text(next_step+' of 3'); 
 	});
 
-	jQuery('.custom_list li').on('click',function(e){
+	jQuery('input[type="checkbox"]').on('change',function(e){
 		// e.preventDefault();
-		jQuery(this).toggleClass('active');
+		jQuery(this).closest('li').toggleClass('active');
 	});
-
+ 
 });

@@ -26,7 +26,7 @@
 	* {
 		outline: none;
 	}
-	
+
 	.step_form_section {
 	    font-size: 18px;
 	    color: rgba(0,0,0,0.6);
@@ -94,11 +94,20 @@
 	    border:1px solid #ccc;
 	}
 
+	.custom_list li.active {
+	    border-color: #fac75a;
+	}
+
+	.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+	    background-color: #fac75a;
+	}
+
 </style>
 <body class="">
  	
  	<!-- Remove p_t_50 class form this section element while integration -->
  	<section class="step_form_section p_t_50">
+ 		<form action="">
  		<div class="container">
 	 		<div class="row">
 	 			<div class="col-12">
@@ -193,7 +202,7 @@
 				 					<p class=" text-left text_normal py-2 m-0">Nice to see you again.</p>
 				 				</div>
 				 				<div class="col text-right">
-				 					<a class="btn btn-dark disabled border-0 rounded-0 text_normal next_btn" href="#">Continue</a>
+				 					<input type="submit" class="btn btn-dark disabled border-0 rounded-0 text_normal" href="#">Continue</a>
 				 				</div>
 				 			</div>
 				 		</div>
@@ -202,6 +211,7 @@
 		 		</div>
 	 		</div>
  		</div>
+ 		</form>
  	</section>
  
 
